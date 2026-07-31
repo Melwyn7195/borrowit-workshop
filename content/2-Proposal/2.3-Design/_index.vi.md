@@ -57,7 +57,7 @@ phải một khối treo bên rìa sơ đồ, mà là cánh cửa trên tường
 Secrets Manager và CloudWatch thoát ra. Năm endpoint được tạo (`ecr.api`,
 `ecr.dkr`, `logs`, `secretsmanager`, `ssmmessages`) và chúng là một phần của kiến
 trúc đã triển khai chứ không phải một tuỳ chọn, với chi phí ~$36/tháng ở một AZ.
-Phép tính nằm ở [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+Phép tính nằm ở [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 
 #### Sơ đồ có thể chỉnh sửa
 
@@ -112,7 +112,7 @@ Ba đường, và cách kiểm tra thiết kế dễ nhất là lần theo từn
    kỳ lời gọi AWS nào không có endpoint sẽ treo âm thầm lúc khởi động. Chính sự kết
    hợp đó — public IP nhưng traffic AWS đi riêng — là quyết định gây tranh cãi nhất
    của thiết kế, và được mổ xẻ đầy đủ ở
-   [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+   [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 
 #### Cấu trúc stack
 
@@ -140,7 +140,7 @@ khác dùng. Nhờ vậy tầng đắt tiền nhất cũng chính là tầng b�
 
 Mỗi dòng là một quyết định có phương án rẻ hơn hoặc an toàn hơn đã bị loại. Lập
 luận đầy đủ, kèm cái giá của từng lựa chọn, nằm ở
-[3.3](../../3-Workshop/3.3-Architecture/).
+[4.3](../../4-Workshop/4.3-Architecture/).
 
 | Tầng | Đề xuất | Phương án thay thế chính | Yếu tố quyết định |
 |---|---|---|---|

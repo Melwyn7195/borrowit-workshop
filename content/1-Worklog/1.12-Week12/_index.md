@@ -23,7 +23,7 @@ pre: " <b> 1.12. </b> "
 | 2 | - Write and publish blog 1 — running Fargate without a NAT Gateway | 31/08/2026 | | |
 | 3 | - Write and publish blog 2 — RDS credentials through Secrets Manager in CDK | 01/09/2026 | | |
 | 4 | - Write and publish blog 3 — serving a single-page app from private S3 with CloudFront OAC | 02/09/2026 | | |
-| 5 | - Complete sections 3 and 4 of the report <br> - Final cost reconciliation from Cost Explorer | 03/09/2026 | | |
+| 5 | - Complete sections 4 and 5 of the report <br> - Final cost reconciliation from Cost Explorer | 03/09/2026 | | |
 | 6 | - Deploy the site to GitHub Pages; verify both languages <br> - Confirm the stamp requirements are all met | 04/09/2026 | | |
 
 ### Week 12 Planned Outcomes

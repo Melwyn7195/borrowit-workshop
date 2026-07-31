@@ -78,5 +78,5 @@ loại chính là thứ biến nó thành một quyết định phạm vi thay v
 + Số dư credit và bảng giá AWS giữ nguyên trong suốt dự án.
 
 <!-- TODO(prose): nếu có giả định nào đổ vỡ trong quá trình làm, nó đáng một câu ở
-     đây và một ghi chú đầy đủ hơn ở phần 4. Một giả định sai nhưng đã được xử lý
+     đây và một ghi chú đầy đủ hơn ở phần 5. Một giả định sai nhưng đã được xử lý
      là bằng chứng mạnh hơn một giả định tình cờ đúng. -->

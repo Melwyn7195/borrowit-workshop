@@ -18,9 +18,9 @@ diverged from it, the divergence is recorded rather than edited away — a propo
 that matches the outcome perfectly is usually one that was rewritten afterwards.
 
 {{% notice note %}}
-Section 2 is the **plan**. [Section 3](../3-Workshop/) is the **record** — the
+Section 2 is the **plan**. [Section 4](../4-Workshop/) is the **record** — the
 reproducible build, with the full rationale behind each service choice. If the two
-disagree, section 3 is what actually happened.
+disagree, section 4 is what actually happened.
 {{% /notice %}}
 
 #### What this proposal commits to

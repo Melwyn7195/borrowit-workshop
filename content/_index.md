@@ -33,7 +33,7 @@ chapter: false
 
 &emsp; **Registered Topic:** Đề tài 3 — Application Development on AWS
 
-![Your profile picture](/images/avatar.png)
+![Avatar](images/avatar.png)
 
 <!-- TODO: replace static/images/avatar.png with your own photo. -->
 
@@ -48,13 +48,14 @@ user uploads.
 
 The planning and design work behind that architecture is set out in
 [section 2](2-Proposal/), and the migration itself is documented as a reproducible
-workshop in [section 3](3-Workshop/), written so that a reader starting from an
+workshop in [section 4](4-Workshop/), written so that a reader starting from an
 empty AWS account can rebuild the whole environment.
 
 ### Report Content
 
 1. [Worklog](1-Worklog/)
 2. [Solution Proposal](2-Proposal/)
-3. [Workshop](3-Workshop/)
-4. [Self-evaluation](4-Self-evaluation/)
-5. [Sharing and Feedback](5-Feedback/)
+3. [Blogs](3-Blogs/)
+4. [Workshop](4-Workshop/)
+5. [Self-evaluation](5-Self-evaluation/)
+6. [Sharing and Feedback](6-Feedback/)

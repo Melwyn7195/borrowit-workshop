@@ -78,5 +78,5 @@ exclusion costs is what makes it a scope decision instead of a gap.
 + AWS credit balance and pricing hold for the project duration.
 
 <!-- TODO(prose): if any of these assumptions broke during the project, that is
-     worth a sentence here and a fuller note in section 4. An assumption that
+     worth a sentence here and a fuller note in section 5. An assumption that
      failed and was handled is stronger evidence than one that happened to hold. -->

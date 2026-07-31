@@ -23,7 +23,7 @@ Three components, one hosting provider:
 
 <!-- TODO(prose): confirm this table against the running system before submitting.
      If uploads were served straight from the API rather than from object storage,
-     say so — it changes the migration story for section 3.7. -->
+     say so — it changes the migration story for section 4.7. -->
 
 #### Why move it
 
@@ -59,7 +59,7 @@ In priority order — when two conflict, the higher one wins:
 | 2 | Define all infrastructure as code | `cdk destroy` then `cdk deploy` reproduces the environment |
 | 3 | Stay inside the credit budget | Cost Explorer, filtered on `Project=BorrowIt` |
 | 4 | Make the system observable | Dashboard and alarms that fire before a user notices |
-| 5 | Document it so someone else can rebuild it | The section 3 workshop, followed by a reader with an empty account |
+| 5 | Document it so someone else can rebuild it | The section 4 workshop, followed by a reader with an empty account |
 
 Objective 3 is the one that constrains the design most, and
 [2.6](../2.6-Budget/) shows why.
@@ -83,6 +83,6 @@ Named here so that not doing them reads as a decision rather than an omission:
 
 + Zero-downtime cutover. A short maintenance window is acceptable.
 + Production-grade compliance posture. See the tradeoff in
-  [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+  [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 + Cost optimisation beyond the credit budget. The target is "affordable and
   understood", not "minimal".

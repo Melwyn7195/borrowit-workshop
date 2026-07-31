@@ -45,7 +45,7 @@ framework thực sự đã được áp dụng.
 | Thay đổi nhỏ, đảo được | `cdk diff` trước mọi lần deploy; phụ thuộc stack một chiều |
 | Sự cố quan sát được | Dashboard, 6 alarm, email SNS; log giữ 1 tuần trong CloudWatch |
 | Deploy tự rollback | ECS circuit breaker tự quay lại khi deploy hỏng |
-| Vận hành có tài liệu | Workshop ở phần 3 chính là runbook |
+| Vận hành có tài liệu | Workshop ở phần 4 chính là runbook |
 
 **Đánh mất:** không có pipeline CI/CD nên deploy thủ công và không lưu vết; không
 có test tự động (backend vốn không có); không có quy trình xử lý sự cố chính thức.
@@ -71,7 +71,7 @@ loại bỏ hoàn toàn kiểu lỗi "chạy được trên máy tôi".
 + **Task chạy trong public subnet kèm public IP.** Một sai sót security group là
   ranh giới giữa cách ly và phơi ra ngoài, trong khi private subnet thì đơn giản là
   không có route nào. Lập luận nằm ở
-  [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/) và cái giá nằm ở
+  [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/) và cái giá nằm ở
   [2.6](../2.6-Budget/).
 + **ALB phục vụ HTTP chứ không phải HTTPS** — không có domain để xác thực chứng
   chỉ, nên traffic API giữa trình duyệt và ALB không được mã hoá.

@@ -48,13 +48,14 @@ CloudFront cho web client cùng ảnh người dùng tải lên.
 
 Kế hoạch và thiết kế dẫn tới kiến trúc đó được trình bày ở
 [phần 2](2-Proposal/), còn toàn bộ quá trình migration được ghi lại thành một
-workshop có thể tái lập ở [phần 3](3-Workshop/), viết sao cho người đọc bắt đầu
+workshop có thể tái lập ở [phần 4](4-Workshop/), viết sao cho người đọc bắt đầu
 từ một tài khoản AWS trống vẫn dựng lại được toàn bộ môi trường.
 
 ### Nội dung báo cáo
 
 1. [Nhật ký công việc](1-Worklog/)
 2. [Đề xuất giải pháp](2-Proposal/)
-3. [Workshop](3-Workshop/)
-4. [Tự đánh giá](4-Self-evaluation/)
-5. [Chia sẻ và góp ý](5-Feedback/)
+3. [Blogs](3-Blogs/)
+4. [Workshop](4-Workshop/)
+5. [Tự đánh giá](5-Self-evaluation/)
+6. [Chia sẻ và góp ý](6-Feedback/)

@@ -23,7 +23,7 @@ pre: " <b> 1.12. </b> "
 | 2 | - Viết và đăng blog 1 — chạy Fargate không cần NAT Gateway | 31/08/2026 | | |
 | 3 | - Viết và đăng blog 2 — quản lý thông tin đăng nhập RDS bằng Secrets Manager trong CDK | 01/09/2026 | | |
 | 4 | - Viết và đăng blog 3 — phục vụ ứng dụng single-page từ S3 private với CloudFront OAC | 02/09/2026 | | |
-| 5 | - Hoàn thiện phần 3 và 4 của báo cáo <br> - Đối chiếu chi phí lần cuối từ Cost Explorer | 03/09/2026 | | |
+| 5 | - Hoàn thiện phần 4 và 5 của báo cáo <br> - Đối chiếu chi phí lần cuối từ Cost Explorer | 03/09/2026 | | |
 | 6 | - Triển khai trang lên GitHub Pages; kiểm tra cả hai ngôn ngữ <br> - Rà soát đã đáp ứng đủ điều kiện đóng mộc | 04/09/2026 | | |
 
 ### Kết quả dự kiến tuần 12

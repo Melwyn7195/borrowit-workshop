@@ -38,7 +38,7 @@ Priced for `ap-southeast-1`, at the sizing proposed in [2.3](../2.3-Design/):
 The first row is the one to argue about. Five PrivateLink endpoints cost more than
 the load balancer, the compute and the telemetry combined, and they carry no
 application traffic — they exist so that credentials, images and logs never cross
-the public internet. [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/)
+the public internet. [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/)
 makes that case in full.
 
 #### Does it fit?

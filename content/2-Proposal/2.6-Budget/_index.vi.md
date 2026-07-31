@@ -38,7 +38,7 @@ Tính theo giá `ap-southeast-1`, với cấu hình đề xuất ở [2.3](../2.
 Dòng đầu tiên mới là dòng đáng tranh luận. Năm endpoint PrivateLink tốn hơn tổng
 của load balancer, compute và telemetry cộng lại, mà lại không mang traffic ứng
 dụng nào — chúng tồn tại để thông tin đăng nhập, image và log không bao giờ băng
-qua internet công cộng. [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/)
+qua internet công cộng. [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/)
 trình bày đầy đủ lập luận đó.
 
 #### Có vừa ngân sách không?

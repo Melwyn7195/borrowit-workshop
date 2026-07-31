@@ -39,7 +39,7 @@ Being explicit about these is the point of the section:
 
 + **No NAT Gateway** — a security-group mistake exposes the task directly. Accepted
   because the alternative costs more than the entire compute budget. Full argument
-  in [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+  in [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 + **No HTTPS on the API** — there is no domain to validate a certificate against.
   Accepted for a demo; it would not be acceptable with real users.
 + **`removalPolicy: DESTROY` on the database** — destroying `BorrowitData` drops
@@ -62,11 +62,11 @@ a command output, or a section of the workshop.
 | S6 | Failure is detected without looking at the app | An alarm email triggered by a stopped task |
 | S7 | The database survives an AZ failure | A forced Multi-AZ failover, with the recovery time recorded |
 | S8 | Spend is inside budget and understood | Cost Explorer beside the estimate in [2.6](../2.6-Budget/) |
-| S9 | Someone else can rebuild it | A peer completing the section 3 workshop from an empty account |
+| S9 | Someone else can rebuild it | A peer completing the section 4 workshop from an empty account |
 
 <!-- TODO(prose): at the end of the project, come back and mark each row honestly.
      A criterion that was not met, with an explanation, reads far better than nine
-     unqualified ticks - and section 4 is where the marker looks for exactly that
+     unqualified ticks - and section 5 is where the marker looks for exactly that
      kind of self-assessment. -->
 
 #### Approval

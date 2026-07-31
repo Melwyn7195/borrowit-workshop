@@ -57,7 +57,7 @@ box hanging off the side of the diagram, it is the door in the VPC wall that the
 ECR, Secrets Manager and CloudWatch traffic leaves by. Five endpoints are created
 (`ecr.api`, `ecr.dkr`, `logs`, `secretsmanager`, `ssmmessages`) and they are part
 of the deployed architecture rather than an option, at ~$36/month in one AZ. The
-arithmetic is in [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+arithmetic is in [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 
 #### The editable diagram
 
@@ -113,7 +113,7 @@ Three paths, and the design is easiest to check by tracing each one:
    IP, because dropping it would mean any AWS call without an endpoint hangs
    silently at startup. That combination — public IP, private AWS traffic — is the
    design's most contested decision and gets its full treatment in
-   [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+   [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 
 #### Stack topology
 
@@ -141,7 +141,7 @@ consuming. The expensive layer is therefore the disposable one — see
 
 Each row is a decision with a cheaper or safer alternative that was rejected. The
 full reasoning, including what each choice costs, is in
-[3.3](../../3-Workshop/3.3-Architecture/).
+[4.3](../../4-Workshop/4.3-Architecture/).
 
 | Layer | Proposed | Main alternative | Deciding factor |
 |---|---|---|---|

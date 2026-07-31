@@ -19,7 +19,7 @@ exists, and that single rule fixes the sequence.
 | **2 — Compute** | 6–7 | Image in ECR, `BorrowitApp` serving through the ALB | `GET /healthz` returns 200 through the load balancer |
 | **3 — Delivery** | 8 | `BorrowitFrontend`, web client live on CloudFront | The app works end to end from a browser |
 | **4 — Operations** | 9–10 | Dashboard, alarms, Multi-AZ failover test, cost review | An alarm email arrives from a deliberately broken system |
-| **5 — Documentation** | 11–12 | The section 3 workshop, blogs, final report | A reader can rebuild the system from the workshop alone |
+| **5 — Documentation** | 11–12 | The section 4 workshop, blogs, final report | A reader can rebuild the system from the workshop alone |
 
 #### Week by week
 

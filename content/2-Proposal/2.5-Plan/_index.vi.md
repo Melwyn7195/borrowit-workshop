@@ -19,7 +19,7 @@ Kế hoạch đi theo **thứ tự phụ thuộc giữa các stack**, không the
 | **2 — Compute** | 6–7 | Image nằm trong ECR, `BorrowitApp` phục vụ qua ALB | `GET /healthz` trả 200 qua load balancer |
 | **3 — Phân phối nội dung** | 8 | `BorrowitFrontend`, web client chạy trên CloudFront | Ứng dụng chạy trọn vẹn từ trình duyệt |
 | **4 — Vận hành** | 9–10 | Dashboard, alarm, diễn tập failover Multi-AZ, rà soát chi phí | Nhận được email alarm từ một hệ thống bị làm hỏng có chủ đích |
-| **5 — Tài liệu** | 11–12 | Workshop ở phần 3, blog, báo cáo cuối | Người đọc dựng lại được hệ thống chỉ từ workshop |
+| **5 — Tài liệu** | 11–12 | Workshop ở phần 4, blog, báo cáo cuối | Người đọc dựng lại được hệ thống chỉ từ workshop |
 
 #### Chi tiết theo tuần
 
@@ -35,7 +35,7 @@ Kế hoạch đi theo **thứ tự phụ thuộc giữa các stack**, không the
 | 8 | `BorrowitFrontend` — bucket S3, CloudFront, OAC; trỏ client sang ALB | Toàn hệ thống chạy | Đầu-cuối: đăng tin, tải ảnh, tải lại trang |
 | 9 | Log group và retention, metric filter, dashboard, sáu alarm, SNS | Có khả năng quan sát | Giết task; email alarm gửi đến |
 | 10 | Bật Multi-AZ, ép failover, đo; load test; soát hoá đơn thật | Bằng chứng về khả năng phục hồi | Ghi lại thời gian failover; Cost Explorer đối chiếu ước tính |
-| 11 | Viết workshop — mục 3.1 đến 3.11 kèm ảnh chụp | Bản nháp workshop | Một người khác làm theo từ tài khoản trống |
+| 11 | Viết workshop — mục 4.1 đến 4.11 kèm ảnh chụp | Bản nháp workshop | Một người khác làm theo từ tài khoản trống |
 | 12 | Blog, báo cáo cuối, bàn giao, quyết định teardown | Bài nộp | Mọi dòng trong bảng này đều có bằng chứng kèm theo |
 
 {{% notice note %}}

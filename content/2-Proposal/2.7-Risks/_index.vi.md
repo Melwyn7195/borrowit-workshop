@@ -39,7 +39,7 @@ Nói rõ những điều này chính là mục đích của phần này:
 
 + **Không có NAT Gateway** — một sai sót security group sẽ phơi task ra ngoài. Chấp
   nhận vì phương án thay thế tốn hơn cả ngân sách compute. Lập luận đầy đủ ở
-  [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+  [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 + **API không có HTTPS** — không có domain để xác thực chứng chỉ. Chấp nhận với bản
   demo; sẽ không chấp nhận được nếu có người dùng thật.
 + **`removalPolicy: DESTROY` trên database** — xoá `BorrowitData` là mất dữ liệu.
@@ -63,11 +63,11 @@ một kết quả lệnh, hoặc một mục trong workshop.
 | S6 | Phát hiện sự cố mà không cần mở ứng dụng | Email alarm do task bị dừng kích hoạt |
 | S7 | Cơ sở dữ liệu sống sót khi mất một AZ | Một lần ép failover Multi-AZ, có ghi thời gian khôi phục |
 | S8 | Chi tiêu nằm trong ngân sách và được hiểu rõ | Cost Explorer đặt cạnh ước tính ở [2.6](../2.6-Budget/) |
-| S9 | Người khác dựng lại được | Một bạn cùng khoá hoàn thành workshop phần 3 từ tài khoản trống |
+| S9 | Người khác dựng lại được | Một bạn cùng khoá hoàn thành workshop phần 4 từ tài khoản trống |
 
 <!-- TODO(prose): cuối dự án, quay lại đánh dấu từng dòng một cách trung thực. Một
      tiêu chí không đạt kèm lời giải thích đọc hay hơn nhiều so với chín dấu tích
-     không điều kiện — và phần 4 chính là chỗ người chấm tìm đúng kiểu tự đánh giá
+     không điều kiện — và phần 5 chính là chỗ người chấm tìm đúng kiểu tự đánh giá
      đó. -->
 
 #### Phê duyệt

@@ -23,7 +23,7 @@ Ba thành phần, một nhà cung cấp:
 
 <!-- TODO(prose): đối chiếu bảng này với hệ thống đang chạy trước khi nộp. Nếu ảnh
      được phục vụ trực tiếp từ API thay vì từ object storage, hãy nói rõ — điều đó
-     làm thay đổi câu chuyện migration ở mục 3.7. -->
+     làm thay đổi câu chuyện migration ở mục 4.7. -->
 
 #### Vì sao phải chuyển
 
@@ -60,7 +60,7 @@ Theo thứ tự ưu tiên — khi hai mục tiêu xung đột, mục tiêu ở t
 | 2 | Toàn bộ hạ tầng định nghĩa bằng mã | `cdk destroy` rồi `cdk deploy` dựng lại được môi trường |
 | 3 | Không vượt ngân sách credit | Cost Explorer, lọc theo `Project=BorrowIt` |
 | 4 | Hệ thống quan sát được | Dashboard và alarm báo trước khi người dùng nhận ra |
-| 5 | Tài liệu đủ để người khác dựng lại | Workshop ở phần 3, có người đọc làm theo từ tài khoản trống |
+| 5 | Tài liệu đủ để người khác dựng lại | Workshop ở phần 4, có người đọc làm theo từ tài khoản trống |
 
 Mục tiêu 3 là mục tiêu ràng buộc thiết kế nhiều nhất, và
 [2.6](../2.6-Budget/) cho thấy vì sao.
@@ -84,6 +84,6 @@ thiếu sót:
 
 + Cutover không downtime. Chấp nhận một khoảng bảo trì ngắn.
 + Mức độ tuân thủ đạt chuẩn production. Xem đánh đổi ở
-  [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/).
+  [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/).
 + Tối ưu chi phí vượt ngoài phạm vi ngân sách credit. Mục tiêu là "vừa túi tiền và
   hiểu rõ", không phải "thấp nhất có thể".

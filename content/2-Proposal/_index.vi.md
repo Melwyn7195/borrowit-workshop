@@ -17,9 +17,9 @@ khai sau đó đi lệch khỏi kế hoạch thì ghi nhận lại thay vì sử
 đề xuất trùng khít với kết quả thường là bản đã được viết lại sau khi xong việc.
 
 {{% notice note %}}
-Phần 2 là **kế hoạch**. [Phần 3](../3-Workshop/) là **biên bản** — quá trình dựng
+Phần 2 là **kế hoạch**. [Phần 4](../4-Workshop/) là **biên bản** — quá trình dựng
 lại được, kèm đầy đủ lập luận cho từng lựa chọn dịch vụ. Nếu hai phần mâu thuẫn,
-phần 3 mới là điều đã thực sự xảy ra.
+phần 4 mới là điều đã thực sự xảy ra.
 {{% /notice %}}
 
 #### Đề xuất này cam kết những gì

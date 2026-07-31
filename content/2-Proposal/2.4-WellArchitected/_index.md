@@ -45,7 +45,7 @@ the framework was actually applied.
 | Small, reversible changes | `cdk diff` before every deploy; one-way stack dependencies |
 | Failure is observable | Dashboard, 6 alarms, SNS email; 1 week of logs in CloudWatch |
 | Deployments roll back | ECS circuit breaker reverts a failed deployment automatically |
-| Documented operations | The section 3 workshop is the runbook |
+| Documented operations | The section 4 workshop is the runbook |
 
 **Given up:** no CI/CD pipeline, so deploys are manual and unrecorded; no automated
 tests (the backend has none); no formal incident process.
@@ -71,7 +71,7 @@ removes the "worked on my laptop" failure mode entirely.
 + **Tasks run in public subnets with public IPs.** One security-group mistake is
   the difference between isolated and exposed, where a private subnet would have
   no route at all. The reasoning is in
-  [3.3.3](../../3-Workshop/3.3-Architecture/3.3.3-networking/) and the cost is in
+  [4.3.3](../../4-Workshop/4.3-Architecture/4.3.3-networking/) and the cost is in
   [2.6](../2.6-Budget/).
 + **The ALB serves HTTP, not HTTPS** — there is no domain to validate a
   certificate against, so API traffic is unencrypted between browser and ALB.
