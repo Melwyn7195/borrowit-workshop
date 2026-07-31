@@ -84,8 +84,7 @@ S3 and does nothing else with AWS.
 
 #### Verify in ECR
 
-<!-- SCREENSHOT: /images/3-Workshop/3.6-Compute/3.6.1-image-and-registry/ecr-image.png
-     Image listed with tag, size, pushed-at time. -->
+![ECR repository listing the pushed image with its tag, size and pushed-at time](/images/3-Workshop/3.6-Compute/3.6.1-image-and-registry/ecr-image.png?width=100pc)
 
 `imageScanOnPush: true` runs a basic vulnerability scan automatically.
 

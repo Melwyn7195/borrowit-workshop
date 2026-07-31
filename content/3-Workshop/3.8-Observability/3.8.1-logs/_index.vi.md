@@ -80,7 +80,7 @@ fields @timestamp
 | stats count() by bin(5m)
 ```
 
-<!-- SCREENSHOT: /images/3-Workshop/3.8-Observability/3.8.1-logs/insights-query.png -->
+![Truy vấn CloudWatch Logs Insights kèm kết quả](/images/3-Workshop/3.8-Observability/3.8.1-logs/insights-query.png?width=100pc)
 
 #### Saved query
 

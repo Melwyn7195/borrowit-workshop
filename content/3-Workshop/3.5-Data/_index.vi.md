@@ -123,8 +123,9 @@ npx cdk deploy BorrowitData
 
 #### Kiểm chứng
 
-<!-- SCREENSHOT: /images/3-Workshop/3.5-Data/rds-instance.png -->
-<!-- SCREENSHOT: /images/3-Workshop/3.5-Data/rds-connectivity.png -->
+![Instance RDS: trạng thái Available, class db.t4g.micro, Multi-AZ No](/images/3-Workshop/3.5-Data/rds-instance.png?width=100pc)
+
+![Tab Connectivity & security: Publicly accessible No, DatabaseSecurityGroup đã gắn, subnet group liệt kê các isolated subnet](/images/3-Workshop/3.5-Data/rds-connectivity.png?width=100pc)
 
 {{% notice note %}}
 **Chi phí:** ~$16/tháng — `db.t4g.micro` cộng 20 GB dung lượng gp2, trừ vào credit

@@ -164,11 +164,9 @@ Open the [VPC console](https://ap-southeast-1.console.aws.amazon.com/vpcconsole/
 and check the resource map: four subnets, two AZs, one internet gateway, and
 **no NAT Gateway**.
 
-<!-- SCREENSHOT: /images/3-Workshop/3.4-Network/vpc-resource-map.png -->
+![VPC resource map: four subnets across two AZs, one internet gateway, no NAT Gateway](/images/3-Workshop/3.4-Network/vpc-resource-map.png?width=100pc)
 
-<!-- SCREENSHOT: /images/3-Workshop/3.4-Network/security-groups.png
-     The three groups with inbound rules expanded, showing each references the
-     previous group rather than a CIDR. -->
+![The three security groups with inbound rules expanded, each referencing the previous group rather than a CIDR](/images/3-Workshop/3.4-Network/security-groups.png?width=100pc)
 
 Confirm the isolated subnets have no route to `0.0.0.0/0`:
 

@@ -32,7 +32,7 @@ Check the credit balance before deploying anything that bills:
 aws freetier get-account-plan-state
 ```
 
-<!-- SCREENSHOT: /images/3-Workshop/3.2-Prerequisites/account-plan.png -->
+![Account plan state showing the remaining credit balance](/images/3-Workshop/3.2-Prerequisites/account-plan.png?width=100pc)
 
 {{% notice warning %}}
 **Set up a budget alarm before deploying.** Billing → Budgets → create a $10 budget

@@ -179,12 +179,9 @@ distribution URL from it. Once it finishes, run `npm run wire` so CloudFront
 learns the new load balancer's hostname — [3.7](../../3.7-Delivery/).
 {{% /notice %}}
 
-<!-- SCREENSHOT: /images/3-Workshop/3.6-Compute/3.6.2-task-and-service/ecs-service.png
-     ECS console: cluster, service, running task count, deployment status. -->
+![ECS console: cluster, service, running task count and deployment status](/images/3-Workshop/3.6-Compute/3.6.2-task-and-service/ecs-service.png?width=100pc)
 
-<!-- SCREENSHOT: /images/3-Workshop/3.6-Compute/3.6.2-task-and-service/task-definition-secrets.png
-     The task definition JSON showing DB_PASSWORD mapped to a secret ARN rather
-     than a literal value. This is the proof for the claim in 3.3.4. -->
+![Task definition JSON showing DB_PASSWORD mapped to a secret ARN rather than a literal value](/images/3-Workshop/3.6-Compute/3.6.2-task-and-service/task-definition-secrets.png?width=100pc)
 
 {{% notice note %}}
 The target will report **unhealthy** at this point, and that is expected — the

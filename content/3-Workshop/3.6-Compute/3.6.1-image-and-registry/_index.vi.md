@@ -83,7 +83,7 @@ CDK tự tạo và cấp quyền cho execution role. Task role khởi đầu r�
 
 #### Kiểm chứng trên ECR
 
-<!-- SCREENSHOT: /images/3-Workshop/3.6-Compute/3.6.1-image-and-registry/ecr-image.png -->
+![Repository ECR liệt kê image đã push kèm tag, dung lượng và thời điểm push](/images/3-Workshop/3.6-Compute/3.6.1-image-and-registry/ecr-image.png?width=100pc)
 
 `imageScanOnPush: true` tự động chạy một bản quét lỗ hổng cơ bản.
 

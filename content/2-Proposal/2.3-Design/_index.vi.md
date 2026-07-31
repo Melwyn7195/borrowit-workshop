@@ -77,11 +77,7 @@ as → PNG*, `zoom 200%`, tắt nền trong suốt, lưu vào
 `static/images/2-Proposal/2.3-Design/architecture.png`.
 {{% /notice %}}
 
-<!-- SCREENSHOT: /images/2-Proposal/2.3-Design/architecture.png
-     Xuất tệp draw.io ở trên ra đường dẫn này. Đây là tấm ảnh mà đa số người đọc
-     sẽ nhìn vào, xứng đáng bỏ ra mười phút chỉnh cho gọn. Sau khi xuất, thay chú
-     thích này bằng:
-     ![Kiến trúc mục tiêu](/images/2-Proposal/2.3-Design/architecture.png?width=100pc) -->
+![Kiến trúc mục tiêu](/images/2-Proposal/2.3-Design/architecture.png?width=100pc)
 
 #### Danh mục thành phần
 

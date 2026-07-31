@@ -82,7 +82,7 @@ fields @timestamp
 | stats count() by bin(5m)
 ```
 
-<!-- SCREENSHOT: /images/3-Workshop/3.8-Observability/3.8.1-logs/insights-query.png -->
+![CloudWatch Logs Insights query with its results](/images/3-Workshop/3.8-Observability/3.8.1-logs/insights-query.png?width=100pc)
 
 #### Saved queries
 

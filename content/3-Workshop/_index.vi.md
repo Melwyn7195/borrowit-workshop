@@ -43,9 +43,7 @@ cả URL console lẫn câu lệnh CLI xuyên suốt bài.
 
 #### Kiến trúc
 
-<!-- SCREENSHOT: /images/3-Workshop/3.1-Overview/architecture.png
-     Cùng một sơ đồ với mục 2.3 - xuất một lần từ
-     static/diagrams/borrowit-architecture.drawio rồi dùng cho cả hai chỗ. -->
+![Kiến trúc mục tiêu của BorrowIt trên AWS](/images/3-Workshop/3.1-Overview/architecture.png?width=100pc)
 
 Kiến trúc được dựng ở đây, cùng tệp nguồn có thể chỉnh sửa của sơ đồ trên, nằm ở
 [2.3](../2-Proposal/2.3-Design/). Phần này dựng nó; bản đề xuất giải thích những

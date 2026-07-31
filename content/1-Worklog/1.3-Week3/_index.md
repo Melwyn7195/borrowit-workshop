@@ -38,6 +38,4 @@ pre: " <b> 1.3. </b> "
 * Produced a costed architecture: ~$50/month for the full stack, against a fixed
   credit balance.
 
-<!-- SCREENSHOT: /images/1-Worklog/1.3-Week3/architecture-draft.png
-     Your first architecture sketch. Including the draft alongside the final
-     version in section 2 shows the design evolved. -->
+![First architecture sketch](/images/1-Worklog/1.3-Week3/architecture-draft.png?width=100pc)

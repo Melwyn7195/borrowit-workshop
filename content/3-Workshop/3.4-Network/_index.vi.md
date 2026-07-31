@@ -160,8 +160,9 @@ Mở [VPC console](https://ap-southeast-1.console.aws.amazon.com/vpcconsole/home
 và xem resource map: bốn subnet, hai AZ, một internet gateway, và **không có NAT
 Gateway**.
 
-<!-- SCREENSHOT: /images/3-Workshop/3.4-Network/vpc-resource-map.png -->
-<!-- SCREENSHOT: /images/3-Workshop/3.4-Network/security-groups.png -->
+![Sơ đồ tài nguyên VPC: bốn subnet trên hai AZ, một internet gateway, không có NAT Gateway](/images/3-Workshop/3.4-Network/vpc-resource-map.png?width=100pc)
+
+![Ba security group với luật inbound mở rộng, mỗi nhóm tham chiếu nhóm trước đó thay vì một CIDR](/images/3-Workshop/3.4-Network/security-groups.png?width=100pc)
 
 Xác nhận isolated subnet không có route tới `0.0.0.0/0`:
 

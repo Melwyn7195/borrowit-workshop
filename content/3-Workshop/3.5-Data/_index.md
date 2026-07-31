@@ -124,12 +124,9 @@ npx cdk deploy BorrowitData
 
 #### Verify
 
-<!-- SCREENSHOT: /images/3-Workshop/3.5-Data/rds-instance.png
-     Status Available, class db.t4g.micro, Multi-AZ: No. -->
+![RDS instance: status Available, class db.t4g.micro, Multi-AZ No](/images/3-Workshop/3.5-Data/rds-instance.png?width=100pc)
 
-<!-- SCREENSHOT: /images/3-Workshop/3.5-Data/rds-connectivity.png
-     Connectivity & security tab: "Publicly accessible: No", DatabaseSecurityGroup
-     attached, subnet group listing the isolated subnets. -->
+![Connectivity & security tab: Publicly accessible No, DatabaseSecurityGroup attached, subnet group listing the isolated subnets](/images/3-Workshop/3.5-Data/rds-connectivity.png?width=100pc)
 
 {{% notice note %}}
 **Cost:** ~$16/month — `db.t4g.micro` plus 20 GB of gp2 storage, billed against

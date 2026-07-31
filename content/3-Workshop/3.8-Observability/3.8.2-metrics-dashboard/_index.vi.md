@@ -71,9 +71,7 @@ aws cloudformation describe-stacks --stack-name BorrowitApp `
   --query "Stacks[0].Outputs[?OutputKey=='DashboardUrl'].OutputValue" --output text
 ```
 
-<!-- SCREENSHOT: /images/3-Workshop/3.8-Observability/3.8.2-metrics-dashboard/dashboard.png
-     Chụp toàn bộ dashboard khi đã có dữ liệu thật. Hãy tạo traffic trước — một
-     dashboard rỗng không chứng minh được gì và còn tệ hơn là không chụp. -->
+![Toàn bộ dashboard CloudWatch với dữ liệu traffic thật](/images/3-Workshop/3.8-Observability/3.8.2-metrics-dashboard/dashboard.png?width=100pc)
 
 #### Bộ nhớ mới là thứ cần canh
 

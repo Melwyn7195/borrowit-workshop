@@ -44,9 +44,7 @@ console URLs and CLI commands throughout.
 
 #### Architecture
 
-<!-- SCREENSHOT: /images/3-Workshop/3.1-Overview/architecture.png
-     The same diagram as section 2.3 - export it once from
-     static/diagrams/borrowit-architecture.drawio and reference it in both places. -->
+![BorrowIt target architecture on AWS](/images/3-Workshop/3.1-Overview/architecture.png?width=100pc)
 
 The architecture built here, and the editable source for the diagram above, are
 set out in [2.3](../2-Proposal/2.3-Design/). This section builds it; the proposal

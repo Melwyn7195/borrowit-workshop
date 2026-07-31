@@ -73,9 +73,7 @@ aws cloudformation describe-stacks --stack-name BorrowitApp `
   --query "Stacks[0].Outputs[?OutputKey=='DashboardUrl'].OutputValue" --output text
 ```
 
-<!-- SCREENSHOT: /images/3-Workshop/3.8-Observability/3.8.2-metrics-dashboard/dashboard.png
-     The whole dashboard with real data in it. Generate traffic first - an empty
-     dashboard proves nothing and looks worse than no screenshot at all. -->
+![The full CloudWatch dashboard with real traffic data in it](/images/3-Workshop/3.8-Observability/3.8.2-metrics-dashboard/dashboard.png?width=100pc)
 
 #### Memory is the one to watch
 

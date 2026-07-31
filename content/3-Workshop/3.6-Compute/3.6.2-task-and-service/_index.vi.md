@@ -179,10 +179,8 @@ hãy chạy `npm run wire` để CloudFront biết hostname của load balancer 
 [3.7](../../3.7-Delivery/).
 {{% /notice %}}
 
-<!-- SCREENSHOT: /images/3-Workshop/3.6-Compute/3.6.2-task-and-service/ecs-service.png -->
-<!-- SCREENSHOT: /images/3-Workshop/3.6-Compute/3.6.2-task-and-service/task-definition-secrets.png
-     JSON của task definition cho thấy DB_PASSWORD ánh xạ tới ARN của secret chứ
-     không phải giá trị thật. Đây là bằng chứng cho khẳng định ở 3.3.4. -->
+![Console ECS: cluster, service, số task đang chạy và trạng thái triển khai](/images/3-Workshop/3.6-Compute/3.6.2-task-and-service/ecs-service.png?width=100pc)
+![JSON của task definition cho thấy DB_PASSWORD ánh xạ tới ARN của secret chứ không phải giá trị thật](/images/3-Workshop/3.6-Compute/3.6.2-task-and-service/task-definition-secrets.png?width=100pc)
 
 {{% notice note %}}
 Ở bước này target sẽ báo **unhealthy**, và đó là điều bình thường — kiểm tra

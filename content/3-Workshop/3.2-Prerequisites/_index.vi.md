@@ -32,7 +32,7 @@ Kiểm tra số credit trước khi triển khai thứ gì có tính phí:
 aws freetier get-account-plan-state
 ```
 
-<!-- SCREENSHOT: /images/3-Workshop/3.2-Prerequisites/account-plan.png -->
+![Trạng thái account plan kèm số dư tín dụng còn lại](/images/3-Workshop/3.2-Prerequisites/account-plan.png?width=100pc)
 
 {{% notice warning %}}
 **Đặt cảnh báo ngân sách trước khi deploy.** Billing → Budgets → tạo budget $10 kèm

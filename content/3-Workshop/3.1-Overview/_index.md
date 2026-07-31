@@ -50,15 +50,7 @@ is a deliberate design property, not an accident of ordering.
 
 #### Architecture
 
-<!-- SCREENSHOT: /images/3-Workshop/3.1-Overview/architecture.png
-     Must show:
-       - VPC, 2 AZs, public + isolated subnets, internet gateway, NO NAT
-       - ALB in public subnets -> Fargate tasks in public subnets
-       - Fargate -> RDS in isolated subnets on 5432
-       - Fargate -> Secrets Manager, ECR, CloudWatch Logs
-       - Browser -> CloudFront -> S3 web bucket + S3 uploads bucket via OAC
-       - S3 gateway endpoint attached to the VPC
-       - CloudWatch alarms -> SNS -> email -->
+![BorrowIt target architecture on AWS](/images/3-Workshop/3.1-Overview/architecture.png?width=100pc)
 
 #### Request path
 

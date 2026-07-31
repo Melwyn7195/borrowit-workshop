@@ -77,11 +77,7 @@ Export with *File → Export as → PNG*, `zoom 200%`, transparent background of
 `static/images/2-Proposal/2.3-Design/architecture.png`.
 {{% /notice %}}
 
-<!-- SCREENSHOT: /images/2-Proposal/2.3-Design/architecture.png
-     Export the draw.io file above to this path and it replaces the placeholder
-     below. This is the single image most readers will look at - it is worth the
-     ten minutes of tidying up. Once exported, replace this comment with:
-     ![Target architecture](/images/2-Proposal/2.3-Design/architecture.png?width=100pc) -->
+![Target architecture](/images/2-Proposal/2.3-Design/architecture.png?width=100pc)
 
 #### Component inventory
 

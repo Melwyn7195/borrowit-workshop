@@ -37,4 +37,4 @@ pre: " <b> 1.3. </b> "
 * Hoàn thành kiến trúc kèm chi phí: ~$50/tháng cho toàn bộ hệ thống, đối chiếu với
   số credit cố định.
 
-<!-- SCREENSHOT: /images/1-Worklog/1.3-Week3/architecture-draft.png -->
+![Bản phác kiến trúc đầu tiên](/images/1-Worklog/1.3-Week3/architecture-draft.png?width=100pc)
