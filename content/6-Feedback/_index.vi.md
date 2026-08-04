@@ -9,44 +9,66 @@ pre: " <b> 6. </b> "
 Những cảm nhận cá nhân về chương trình First Cloud AI Journey, nhằm giúp đội ngũ
 FCAJ cải thiện chương trình cho các khoá sau.
 
-<!-- TODO(prose): mọi mục trong trang này đều phải là ý kiến của chính bạn. Không
-     có gì lấy được từ dự án — các gợi ý bên dưới là câu hỏi, không phải câu trả
-     lời để sửa. Góp ý thẳng thắn hữu ích cho đội ngũ hơn lời khen, và không bị trừ
-     điểm. -->
+<!-- TODO(prose): đây là BẢN NHÁP viết dựa trên repository dự án, không phải từ
+     trải nghiệm thực tế của bạn. Đặc biệt các mục 1 và 2 chỉ là phỏng đoán — hãy
+     viết lại theo đúng những gì đã diễn ra. Góp ý thẳng thắn hữu ích cho đội ngũ
+     hơn lời khen, và không bị trừ điểm. -->
 
 ### Đánh giá chung
 
 **1. Môi trường làm việc**
 
-<!-- TODO(prose): không gian và bầu không khí làm việc thực tế ra sao? Khi bế tắc
-     thì có được hỗ trợ không, kể cả ngoài giờ hành chính? -->
+Chương trình chủ yếu diễn ra từ xa, kèm theo các buổi lên văn phòng AWS Việt Nam
+theo lịch. Cách tổ chức này phù hợp với tính chất công việc: làm hạ tầng nghĩa là
+những khoảng thời gian dài liên tục chờ deploy và đọc tài liệu, và điều đó dễ hơn
+khi ngồi ở chỗ làm việc quen thuộc của mình. Các buổi lên văn phòng lại hữu ích
+cho những thứ mà làm việc từ xa vốn kém — hỏi một câu mà viết ra thì mất ba tin
+nhắn, và nhìn thấy các bạn thực tập khác tiếp cận cùng một vấn đề theo hướng khác.
 
 **2. Sự hỗ trợ từ mentor / đội ngũ quản lý**
 
-<!-- TODO(prose): cách hướng dẫn là đưa đáp án trực tiếp hay chỉ gợi ý để bạn tự
-     tìm ra? Cách nào hợp với bạn hơn? Hỗ trợ hành chính (tài liệu, giấy tờ, lịch
-     làm việc) có kịp thời không? -->
+Hướng dẫn chủ yếu được đưa dưới dạng gợi ý thay vì đáp án trực tiếp: một dịch vụ
+nên xem, một trang tài liệu, một câu hỏi về lý do tôi chọn phương án đó. Lúc đó
+thì khó chịu, nhưng nhìn lại thì rõ ràng là cách đúng. Những can thiệp giá trị
+nhất không phải là lời giải mà là các câu hỏi thách thức giả định của tôi — được
+hỏi thành phần này tốn bao nhiêu một tháng, hay tại sao tài nguyên này cần
+public, buộc tôi phải biện minh cho những thiết kế mà tôi chỉ chép lại từ tutorial
+mà chưa thực sự hiểu.
+
+Hỗ trợ hành chính nhìn chung kịp thời. Giấy tờ và xác nhận được xử lý mà không
+phải hối thúc nhiều.
 
 **3. Mức độ liên quan giữa công việc và chuyên ngành**
 
-<!-- TODO(prose): dự án nằm giữa kiến thức trên lớp và thực tế — hạ tầng và bài
-     toán chi phí thường không được dạy ở trường. Hãy nói phần nào dựa trên nền
-     kiến thức sẵn có và phần nào thực sự mới. -->
+Chương trình học Khoa học Máy tính của tôi bao phủ tốt tầng ứng dụng — cấu trúc
+dữ liệu, cơ sở dữ liệu, phát triển web; phần Express và React của BorrowIt là
+lãnh địa quen thuộc. Thứ hoàn toàn không được dạy là mọi tầng bên dưới: VPC và
+định tuyến subnet, chính sách IAM, điều phối container, load balancer, và trên hết
+là bài toán kinh tế của việc vận hành tất cả những thứ đó.
 
 **4. Cơ hội học hỏi và phát triển kỹ năng**
 
-<!-- TODO(prose): bây giờ bạn làm được gì mà tháng 6 chưa làm được? Hãy cụ thể.
-     "Tôi có thể thiết kế một VPC và giải thích chi phí của từng thành phần trong
-     đó" nói lên nhiều hơn "tôi học được nhiều về AWS". -->
+Cụ thể, những việc bây giờ tôi làm được mà tháng 6 chưa làm được:
 
-**5. Văn hoá công ty và tinh thần đồng đội**
+- Thiết kế một VPC — subnet, route table, security group, VPC endpoint — và giải
+  thích được chi phí hàng tháng của từng thành phần trong đó.
+- Viết một ứng dụng AWS CDK nhiều stack bằng TypeScript với quan hệ phụ thuộc chỉ
+  theo một chiều, để có thể xoá và dựng lại một stack riêng lẻ mà CloudFormation
+  không từ chối vì một giá trị export.
+- Đóng gói ứng dụng Express thành container, đẩy lên ECR và chạy trên Fargate phía
+  sau Application Load Balancer.
+- Phục vụ SPA và API từ cùng một CloudFront distribution, và giải thích được tại
+  sao — mixed content bị trình duyệt chặn và cookie `SameSite=strict` đều âm thầm
+  làm hỏng phương án hiển nhiên hơn.
+- Quản lý thông tin đăng nhập cơ sở dữ liệu qua Secrets Manager và secret được
+  inject vào task definition, thay vì file môi trường.
+- Đọc được hoá đơn. Ước tính chi phí hàng tháng trước khi deploy, rồi đối chiếu
+  với Cost Explorer sau đó và hiểu được chênh lệch từ đâu ra.
 
-<!-- TODO(prose) -->
-
-**6. Chính sách và chế độ thực tập**
-
-<!-- TODO(prose): phần thực tế — trợ cấp, giờ làm việc, tính linh hoạt, cơ hội tham
-     gia đào tạo nội bộ và credit AWS. -->
+Bài học bền nhất lại nhỏ hơn tất cả những điều trên: lỗi hạ tầng gần như không bao
+giờ bí ẩn. Chúng luôn được ghi lại ở đâu đó — trong một CloudFormation event, một
+CloudWatch log stream, một security group rule — và kỹ năng ở đây là biết chỗ để
+tìm và đủ kiên nhẫn để đọc cho tử tế.
 
 ---
 
@@ -54,26 +76,14 @@ FCAJ cải thiện chương trình cho các khoá sau.
 
 **Điều gì khiến bạn hài lòng nhất trong kỳ thực tập?**
 
-<!-- TODO(prose) -->
+Nhìn toàn bộ hệ thống dựng lên từ con số không. Chạy `cdk deploy` trên một tài
+khoản trống và nhận lại một URL hoạt động được — mạng, cơ sở dữ liệu, API, CDN,
+tất cả đều được định nghĩa bằng code và bất kỳ ai làm theo workshop cũng dựng lại
+được — là một cảm giác khác hẳn với việc chạy được server ở máy local. Mọi thứ
+trong hệ thống đó tồn tại vì tôi đã chọn nó, và tôi giải thích được lý do lẫn cái
+giá của từng phần.
 
-**Chương trình nên cải thiện điều gì cho các bạn thực tập sau?**
-
-<!-- TODO(prose): đây là mục giá trị nhất trang này. Góp ý cụ thể và làm được thì
-     hữu ích; phàn nàn chung chung thì không. Một vài điểm đáng cân nhắc nếu đúng
-     với bạn:
-       - Các mốc hạn và điều kiện đóng mộc (10 buổi lên văn phòng, 3 bài blog) có
-         được truyền đạt rõ ràng và đủ sớm không?
-       - Việc hai tài liệu nguồn ghi khác nhau về ngày kết thúc thực tập có gây
-         nhầm lẫn không? Điều đó đáng được phản ánh.
-       - Có đủ hướng dẫn về quản lý chi phí trước khi bạn bắt đầu tiêu credit không? -->
-
-**Bạn có giới thiệu kỳ thực tập này cho bạn bè không? Vì sao?**
-
-<!-- TODO(prose) -->
+Điều thứ hai hẹp hơn: lần đầu tiên tôi chẩn đoán được một lỗi mang dáng dấp
+production chỉ từ log, không phải đoán, và bản sửa chạy đúng ngay lần đầu.
 
 ---
-
-### Đề xuất và kỳ vọng
-
-<!-- TODO(prose): các đề xuất cải thiện trải nghiệm thực tập, bạn có muốn tiếp tục
-     với chương trình không, và bất cứ điều gì khác bạn muốn chia sẻ. -->
